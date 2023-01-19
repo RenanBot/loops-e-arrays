@@ -12,15 +12,16 @@ public class Ex2_Nota {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int nota;
+        double nota;
 
         System.out.println("Nota: ");
-        nota = scan.nextInt();
+        nota = scan.nextDouble();
 
-        while(nota < 0 | nota > 10) {
+        while(nota < 0 || nota > 10) {
             System.out.println("Nota Inválida! Digite novamente: ");
-            nota = scan.nextInt();
+            nota = scan.nextDouble();
         }
+        System.out.println("Nota Válida Obrigado!! ");
 
     }
 

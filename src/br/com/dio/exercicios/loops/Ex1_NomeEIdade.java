@@ -15,7 +15,8 @@ public class Ex1_NomeEIdade {
         int idade;
 
         while(true) {
-            System.out.println("Nome: ");
+            
+            System.out.println("\nNome: ");
             nome = scan.next();
             if (nome.equals("0")) break;
 
