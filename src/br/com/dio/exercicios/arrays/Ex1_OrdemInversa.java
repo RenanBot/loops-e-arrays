@@ -22,5 +22,8 @@ public class Ex1_OrdemInversa {
             System.out.print(vetor[i] + " ");
         }
 
+
+        }
+
+
     }
-}
